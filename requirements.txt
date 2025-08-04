@@ -1,6 +1,28 @@
-snscrape==0.6.2
-pandas==2.2.2
-matplotlib==3.8.4
-seaborn==0.13.2
-numpy==1.26.4
-python-dateutil==2.8.2
+# Core data science libraries
+pandas>=2.3.0
+numpy>=2.3.0
+matplotlib>=3.10.0
+seaborn>=0.13.0
+python-dateutil>=2.8.0
+
+# Web application framework
+streamlit>=1.47.0
+
+# Interactive plotting
+plotly>=6.2.0
+
+# Additional data processing
+openpyxl>=3.1.0
+
+# Instagram scraping (optional - for production use)
+# Note: snscrape may have limitations with Instagram
+# Consider alternative approaches for production deployment
+snscrape>=0.6.0
+
+# Additional utilities
+requests>=2.27.0
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
